@@ -287,7 +287,7 @@ Transaction 은 다음의 ACID 라는 4 가지 특성을 만족해야 한다.
 
 ### 트랜잭션의 상태
 
-![트랜잭션 상태 다이어그램](/Database/images/transaction-status.png)
+![트랜잭션 상태 다이어그램](/Database/images/transaction-status[2].png)
 
 #### Active
 
@@ -328,7 +328,7 @@ Transaction 은 다음의 ACID 라는 4 가지 특성을 만족해야 한다.
 
 MySQL [MVCC](https://en.wikipedia.org/wiki/Multiversion_concurrency_control)에 따른 특성 때문에 트랜잭션에서 갱신 연산(Insert, Update, Delete)를 실행하면 잠금을 획득한다. (기본은 행에 대한 잠금)
 
-![classic deadlock 출처: https://darkiri.wordpress.com/tag/sql-server/](/Database/images/deadlock.png)
+![classic deadlock 출처: https://darkiri.wordpress.com/tag/sql-server/](/Database/images/deadlock[2].png)
 
 트랜잭션 1이 테이블 B의 첫번째 행의 잠금을 얻고 트랜잭션 2도 테이블 A의 첫번째 행의 잠금을 얻었다고 하자.
 ```SQL
